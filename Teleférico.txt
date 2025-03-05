@@ -1,0 +1,14 @@
+<?php
+$c = 12;
+$a = 55;
+
+$quociente = $a / ($c-1);
+$resto = $a % ($c-1);
+
+$resposta = $quociente;
+
+if ($resto > 0) {
+    $resposta += 1;
+}
+
+echo (int) $resposta;
